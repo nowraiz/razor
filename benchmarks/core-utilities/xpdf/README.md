@@ -1,3 +1,6 @@
+0. Build all the tracers in `razor/tracers`:
+	- `python build.py`
+
 1. Run test cases in `./train/` to collect traces:
 	- `python run_razor.py train`
 
