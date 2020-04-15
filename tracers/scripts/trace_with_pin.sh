@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bin_cmd="/bin/ls /var"
+bin_cmd="$@"
 
 set -e
 
