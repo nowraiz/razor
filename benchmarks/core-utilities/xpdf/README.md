@@ -17,3 +17,7 @@
 	- `python run_razor.py extend_debloat`
 
 6. Retry step 3 to step 5 and you would notice no segmentation faults happen for all test cases.
+
+**Problems**
+
+The test cases in test directory are much more complicated than the training test case, therefore the debloated binary should not pass all the test cases without a segfault, but it does. 
